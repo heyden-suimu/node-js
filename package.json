@@ -1,0 +1,15 @@
+{
+  "name": "chartrooms",
+  "version": "0.0.1",
+  "description": "Minimalist multiroom chat server",
+  "scripts": {
+    "dev": "supervisor server"
+  },
+  "dependencies": {
+    "socket.io": "~0.9.6",
+    "mime": "~1.2.7"
+  },
+  "devDependencies": {
+    "opn": "^5.1.0"
+  }
+}
